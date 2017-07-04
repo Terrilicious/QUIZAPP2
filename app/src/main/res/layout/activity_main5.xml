@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="ANSWERS OF LIST OF FOOD ORIGINS Quiz!"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView43"
+        android:layout_alignEnd="@+id/textView43" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="(1) Watermelon was originated in:Southern Africa"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView39"
+        android:layout_alignStart="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="(2) Banana was originated in:Asia"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(3)Nutmeg was originated in:Indonesia"
+        android:textColor="#ccff55"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView39"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4) The food the israelites ate while in Egypt is:Garlic"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(5) Onion was originated in:Iraq"
+        android:textColor="#ccff55"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView41"
+        android:layout_alignLeft="@+id/textView40"
+        android:layout_alignStart="@+id/textView40" />
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(6) The cumin is originated in:Egypt"
+            android:textColor="#ccff55"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40" />
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(7) The coriander is originated in:Europe"
+            android:textColor="#ccff55"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(8) The ginger is originated in:South Asia"
+            android:textColor="#ccff55"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(9)  The Lentil is originated in:North Africa"
+            android:textColor="#ccff55"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(10) The millet is originated in:India"
+            android:textColor="#ccff55"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/textView41"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView42"
+            android:layout_marginTop="52dp"
+            app:srcCompat="@drawable/watermelon" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView42"
+            android:layout_marginTop="29dp"
+            android:text="Click the pic to go back to the main menu" />
+
+        <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="by T.Kgonyane"
+        android:fontFamily="cursive"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView43"
+        android:layout_toEndOf="@+id/textView43"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+
+</LinearLayout>
+   </ScrollView>
+</RelativeLayout>

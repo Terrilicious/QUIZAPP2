@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/ekse" />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose the correct answer"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#ccff55"/>
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is  the correct slogan for Apple?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Don't leave home" />
+
+                <RadioButton
+                    android:id="@+id/radapple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Think different" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="We try harder" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the correct slogan for bmw? "
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Reach out and touch someone" />
+
+                <RadioButton
+                    android:id="@+id/radBMW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The ultimate Driving machine" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The best " />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Obey your thirst is the slogan of..."
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Heineken" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bonaqua" />
+
+                <RadioButton
+                    android:id="@+id/radsprite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sprite" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/volkswagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Think small is the slogan of..."
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radvolkswagen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Volkswagen" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Corolla" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Toyota" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Just do it is the slogan of..."
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cellc" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Vodacom" />
+
+                <RadioButton
+                    android:id="@+id/radnike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nike" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the slogan of vodacom?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="The power is in your hands" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="More power" />
+
+                <RadioButton
+                    android:id="@+id/radvodacom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Power to you" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm lovin it is the slogan of..."
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jet" />
+
+                <RadioButton
+                    android:id="@+id/radmcdonald"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="McDonald's" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mr p" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtsunbake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The best bake under the sun is the slogan of..."
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radsasco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sasco" />
+
+                <RadioButton
+                    android:id="@+id/radalbany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Albany" />
+
+                <RadioButton
+                    android:id="@+id/radsunbake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sunbake" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtkfc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Is finger licking good is the slogan...?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radkfc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="KFC" />
+
+                <RadioButton
+                    android:id="@+id/radpie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="King pie" />
+
+                <RadioButton
+                    android:id="@+id/radsteers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Steers" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/txtadidas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the slogan of Adidas?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radreebk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Stronger than dirt" />
+
+                <RadioButton
+                    android:id="@+id/radlevis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Have it your way" />
+
+                <RadioButton
+                    android:id="@+id/radadidas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Impossible is nothing" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:visibility="invisible" />
+
+
+            <Button
+                android:id="@+id/btncorrections"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CORRECTIONS"
+                android:visibility="invisible" />
+            <Button
+                android:id="@+id/btndone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESULTS" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="by T.Kgonyane"
+                android:fontFamily="cursive"
+                android:layout_marginTop="10pt"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/curry1" />
+
+
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter your name"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose the correct answer"
+                android:layout_marginBottom="15dp"
+                android:textSize="20sp"
+                android:textColor="#ccff55"/>
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is watermelon originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radamerica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="America" />
+
+                <RadioButton
+                    android:id="@+id/radindia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="India" />
+
+                <RadioButton
+                    android:id="@+id/radsouthernafrica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Southern Africa" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is Banana origined?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Zimbabwe" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Malawi" />
+
+                <RadioButton
+                    android:id="@+id/radasia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asia" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is Nutmeg originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radindonesia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Indonesia" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="South Africa" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Botswana" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which food did the israelites ate while in Egypt?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Apple" />
+
+                <RadioButton
+                    android:id="@+id/radgarlic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Garlic" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mango" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/textonion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the onion originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radland"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="England" />
+
+                <RadioButton
+                    android:id="@+id/radiraq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Iraq" />
+
+                <RadioButton
+                    android:id="@+id/radcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Congo" />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:id="@+id/txtcumin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the cumin originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radzimbabwe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Zimbabwe" />
+
+                <RadioButton
+                    android:id="@+id/radegypt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Egypt" />
+
+                <RadioButton
+                    android:id="@+id/radEurope"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Europe" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the coriander originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radira"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Iraq" />
+
+                <RadioButton
+                    android:id="@+id/radeng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="England" />
+
+                <RadioButton
+                    android:id="@+id/radeurope"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Europe" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtginger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the ginger originated?"
+                android:textColor="#ccff55"/>
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radsouth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="South Africa" />
+
+                <RadioButton
+                    android:id="@+id/radmawila"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mawila" />
+
+                <RadioButton
+                    android:id="@+id/radginger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="South Asia" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the Lentil originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radeg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Egypt" />
+
+                <RadioButton
+                    android:id="@+id/radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DRC" />
+
+                <RadioButton
+                    android:id="@+id/radnorth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="North Africa" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the millet originated?"
+                android:textColor="#ccff55"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radIndia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="India" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Syria" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Tunisia" />
+            </RadioGroup>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CORRECTIONS"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/btnnext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NEXT"
+                    android:visibility="invisible"/>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.00"
+                    android:text="RESULTS"
+                    />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="by T.Kgonyane"
+                    android:fontFamily="cursive"
+                    android:layout_marginTop="10pt"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

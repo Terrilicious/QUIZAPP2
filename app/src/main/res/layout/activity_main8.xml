@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066">
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="ANSWERS OF SLOGAN Quiz"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView52"
+        android:layout_alignEnd="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView48"
+        android:layout_marginTop="17dp"
+        android:text=" (1) The correct slogan for Apple is:Think different"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text=" (2)The correct slogan for bmw is: ultimate Driving machine"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="(3) Obey your thirst is the slogan of:sprite"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView51"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView52"
+        android:layout_marginTop="22dp"
+        android:text=" (4) Think small is the slogan of:Volkswagen"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(5) Just do it is the slogan of:nike"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView54"
+        android:layout_alignRight="@+id/textView54"
+        android:layout_below="@+id/textView54"
+        android:layout_marginTop="25dp"
+        android:text="(6) The slogan of vodacom is:Power to you"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="(7) I'm lovin it is the slogan of:McDonald"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView55"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="(8) The slogan of Adidas is:Impossible is nothing"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView56"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="(9) I'm lovin it is the slogan of:McDonald"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView57"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(10) The slogan of Adidas is:Impossible is nothing"
+        android:textColor="#ccff55"
+        android:layout_below="@+id/textView58"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        android:layout_alignTop="@+id/textView59"
+        android:layout_alignRight="@+id/textView57"
+        android:layout_alignEnd="@+id/textView57"
+       />
+
+
+</RelativeLayout>

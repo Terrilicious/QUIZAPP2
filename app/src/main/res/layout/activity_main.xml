@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066"
+    >
+
+    <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+            android:text="WELCOME"
+        android:rotation="20"
+            android:textColor="#ff0033"
+            android:textSize="35dp"
+            android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView9"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="29dp" />
+
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+
+            android:text="2 TERRY's QUIZ APP"
+            android:rotation="20"
+            android:textColor="#ff0033"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="190dp"
+            android:textColor="#ccff55"
+            android:text=" NB: Read and follow the instructions carefully!!
+on the next page"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+        android:layout_above="@+id/imageView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.04"
+        app:srcCompat="@drawable/play"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cat"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp" />
+
+</RelativeLayout>

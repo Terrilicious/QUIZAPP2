@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cc0066">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginStart="129dp"
+                android:layout_marginTop="13dp"
+                android:text="ANSWERS OF THE HISTORY OF SA Quiz!"
+                />
+
+            <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(1) The leader of IFP is:Mangosuthu Buthelezi"
+        android:layout_below="@+id/textView28"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView29"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="22dp"
+        android:text="(2)
+        The leader os EFF is:Julies Malema"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView30"
+        android:layout_alignRight="@+id/textView30"
+        android:layout_below="@+id/textView30"
+        android:layout_marginTop="24dp"
+        android:text="(3) In the past years SA was known as:Transval"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_alignRight="@+id/textView31"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="18dp"
+        android:text="(4) The first Diamond was discored in:1866"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView32"
+        android:layout_marginTop="11dp"
+        android:text="(5) The person who  campaigned against British concentrations in  SA IS:Emily Hubhouse"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView33"
+        android:layout_marginTop="25dp"
+        android:text="(6) The first humans inhabited about:100,000 years ago"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView34"
+        android:layout_alignRight="@+id/textView34"
+        android:layout_below="@+id/textView34"
+        android:layout_marginTop="19dp"
+        android:text="(7) The flag of RSA was adopted in:1994"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView35"
+        android:layout_alignRight="@+id/textView35"
+        android:layout_below="@+id/textView35"
+        android:layout_marginTop="23dp"
+        android:text="(8) The first black president in SA is:Nelson Mandela"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView36"
+        android:layout_alignRight="@+id/textView36"
+        android:layout_below="@+id/textView36"
+        android:layout_marginTop="24dp"
+        android:text="(9) The student uprising took place on:June 1976"
+        android:textColor="#ccff55"/>
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView37"
+        android:layout_alignRight="@+id/textView37"
+        android:layout_below="@+id/textView37"
+        android:layout_marginTop="20dp"
+        android:text="(10) The fouder of Cape town IS:Jan Van Reebeek"
+        android:textColor="#ccff55"/>
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Click the pic below,to go back to the main menu" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/peter"
+                android:layout_weight="0.48" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="by T.Kgonyane"
+                android:fontFamily="cursive"
+                android:layout_marginTop="10pt"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+
